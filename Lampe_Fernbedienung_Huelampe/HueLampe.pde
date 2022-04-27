@@ -4,8 +4,8 @@ import java.net.URL;
 
 class HueLampe
 {
-  String bridgeIP = "HueSchule";    // Adresse der HueBridge im Schulnetzwerk
-  String username = "ZWKT3UaornxBVQks5HpDli8V1Nmbqi9SE48p8bRT";  //Name eines in der Hue-Bridge registrierten Users
+  String bridgeIP = "HueITG";    // Adresse der HueBridge im Schulnetzwerk
+  String username = "h4cAFIYkKux0Y3R0Nw8TlhXR5sg4DHHmkNDWvmWZ";  //Name eines in der Hue-Bridge registrierten Users
   int nummer = 1;
   String adresse = "http://"+bridgeIP+"/api/"+username + "/lights/" + nummer;  // Adresse der Lampe
 
